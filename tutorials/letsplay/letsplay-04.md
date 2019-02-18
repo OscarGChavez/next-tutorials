@@ -83,7 +83,7 @@ We are going to modify the same file.
 // wipe off the 
 "onClearPaths": function(sender, events){
 	var pathLayer = this.topology().getLayer("path");
-	pathLayer.clearPathLayer();
+	pathLayer.clear();
 }
 
 // ...
